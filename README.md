@@ -35,3 +35,6 @@ Mereces lo que sueñas
 
 La felicidad no es una meta, sino una serie de elecciones conscientes que hacemos cada día.
 
+# Este es un comentario de Sofi
+
+"La vida es 10% lo que te pasa y 90% cómo reaccionas a ello." -Charles R. Swindoll
