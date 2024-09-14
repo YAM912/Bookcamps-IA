@@ -31,4 +31,7 @@ Sigue adelante, nunca pares de aprender.
 
 Mereces lo que sueñas
 
+# Este es un comentario de James
+
+La felicidad no es una meta, sino una serie de elecciones conscientes que hacemos cada día.
 
