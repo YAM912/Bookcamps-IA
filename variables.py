@@ -3,6 +3,6 @@ b = 8
 c = a + b
 print (c)
 nombre = "Yamid"
-nombre = "Yamid usuario"
-#Concluimos que las variables son modificables
+nombre = "Yamid Usuario"
+#Concluimos que las variables son modificables y toman el ultimo valor
 print (nombre)
