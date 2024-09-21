@@ -23,4 +23,18 @@
 * Firebase (Hosting)
 * Primeros pasos con Phyton
 
+# Este es un comentario del Profe Jheyson
 
+Sigue adelante, nunca pares de aprender.
+
+# Este comentario lo realiza Alex
+
+Mereces lo que sueñas
+
+# Este es un comentario de James
+
+La felicidad no es una meta, sino una serie de elecciones conscientes que hacemos cada día.
+
+# Este es un comentario de Sofi
+
+"La vida es 10% lo que te pasa y 90% cómo reaccionas a ello." -Charles R. Swindoll
