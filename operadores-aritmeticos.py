@@ -4,7 +4,7 @@ multiplicacion = 12 * 4
 division = 12 / 4
 potenciacion = 12 ** 4
 division_Entera = 12 // 4
-resto = 12 / 4
+resto = 12 % 4
 print (suma, resta, multiplicacion, division, potenciacion, division_Entera, resto)
 tipo_de_dato = type ("Hola profe") # Devuelve el tipo de dato
 print (tipo_de_dato)
