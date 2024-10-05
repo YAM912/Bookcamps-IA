@@ -1,7 +1,7 @@
 # PANDAS ESENCIAL PARA EL ANALISIS DE DATOS Y MANIPULACION DE DATOS EN IA 
 ### Pandas es una herramienta fundamental en el arsenal de cualquier científico de datos o ingeniero de IA
 
-# 1 Estructura de datos poderosas:
+# 1. Estructura de datos poderosas:
 ## 1.1 Series:
 estructuras de datos unidimensionales que almacenan una secuencia de valores, fundamental para trabajar con datos de manera eficiente y flexible.
 
