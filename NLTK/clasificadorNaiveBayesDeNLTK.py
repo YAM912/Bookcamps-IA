@@ -5,29 +5,30 @@ import random # Utilizado aqui para generar muestras aleatorias
 # 2. DEFINICION DEL CONJUNTO DE DATOS ETIQUETADOS
   #Data: Lista de tuplas donde cada tupla contiene un texto de comentario de pelicula y su correspondeinte etiqueta de sentimiento
   #(positivo o negativo)
+  #Ejemplo de conjunto de datos de textos etiquetados
 Data = [
 ("Me encanta esta película", "positivo"),
-("Esta película es terrible", "negativa"),
-("Esta película es genial", "positiva"),
+("Esta película es terrible", "negativo"),
+("Esta película es genial", "positivo"),
 ("No me gusta esta película", "negativo"),
-("Esta película es increíble", "positiva"),
+("Esta película es increíble", "positivo"),
 ("No soporto ver esta película", "negativo"), 
 ("La actuación en esta película es fenomenal", "positivo"),
 ("Me arrepiento de haber perdido el tiempo en esta película", "negativo"),
 ("Disfruté mucho esta película", "positivo"),
 ("A esta película le falta profundidad y sustancia", "negativo"),
-("La trama de esta película fue cautivadora", "positiva"),
+("La trama de esta película fue cautivadora", "positivo"),
 ("Encontré los personajes de esta película muy atractivos", "positivo"),
 ("Los efectos especiales de esta película fueron impresionantes", "positivo"), 
 ("La historia era predecible y poco original", "negativo"),
 ("Me decepcionó la falta de desarrollo del personaje", "negativo"),
-("La fotografía en esta película fue impresionante", "positiva"),
+("La fotografía en esta película fue impresionante", "positivo"),
 ("El diálogo parecía forzado y poco natural", "negativo"),
 ("El ritmo de la película fue demasiado lento para mi gusto", "negativo"),
 ("Me sorprendió gratamente lo mucho que disfruté esta película", "positivo"),
 ("El final me dejó insatisfecho y confundido", "negativo"), 
 ("Esta película superó mis expectativas", "positivo"),
-("Las actuaciones de los actores fueron mediocres", "negativas")
+("Las actuaciones de los actores fueron mediocres", "negativo")
 ]
 
 # 3. PREPROCESAMIENTO DE DATOS: tokenizacion y extraccion de caracteristicas
@@ -72,4 +73,8 @@ new_text_features = preprocess(new_text)
 predicted_label = classifier.classify(new_text_features)
 print ("predicted label: " , predicted_label)
 
+new_text2 = "Esta pelicula es terrible"
+new_text_features = preprocess(new_text2)
+predicted_label = classifier.classify(new_text_features)
+print ("predic label: " , predicted_label)
 
